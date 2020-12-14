@@ -1,0 +1,29 @@
+{
+  "name": "ynab-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getTransactions": "node src/transactions",
+    "bulkRenameTransactions": "node src/bulkRenameTransaction",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asharman/ynab-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asharman/ynab-scripts/issues"
+  },
+  "homepage": "https://github.com/asharman/ynab-scripts#readme",
+  "dependencies": {
+    "dayjs": "^1.9.7",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "yargs": "^16.2.0",
+    "ynab": "^1.21.0"
+  }
+}
