@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 // npm run bulkRenameTransaction "oldName" "newName"
 
 const ynab = require("ynab");
